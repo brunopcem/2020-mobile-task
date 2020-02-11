@@ -4,8 +4,7 @@ import { StyleSheet, Text, View } from 'react-native';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Acredito que</Text>
-      <Text>esteja funcionando</Text>
+      <Text style={styles.texto}>Teste</Text>
     </View>
   );
 }
@@ -16,5 +15,11 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
+  },
+
+  texto: {
+  	color: 'red',
+  	fontSize: 30,
+  	fontWeight: 'bold',
   },
 });
